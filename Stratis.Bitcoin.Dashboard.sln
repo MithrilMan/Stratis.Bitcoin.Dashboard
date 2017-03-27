@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Stratis.Bitcoin.Dashboard", "Stratis.Bitcoin.Dashboard\Stratis.Bitcoin.Dashboard.xproj", "{C32FA692-5266-4D75-8AC5-91727BEE4CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCF93FF5-D4B9-4DD1-98E3-7FA1EB2A9C78}"
+	ProjectSection(SolutionItems) = preProject
+		Rebracer.xml = Rebracer.xml
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Stratis.Bitcoin.Dashboard.NodeStarter", "Stratis.Bitcoin.Dashboard.NodeStarter\Stratis.Bitcoin.Dashboard.NodeStarter.xproj", "{490724FC-B0CA-4E18-A5D8-ED36F05A039E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C32FA692-5266-4D75-8AC5-91727BEE4CF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C32FA692-5266-4D75-8AC5-91727BEE4CF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C32FA692-5266-4D75-8AC5-91727BEE4CF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C32FA692-5266-4D75-8AC5-91727BEE4CF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{490724FC-B0CA-4E18-A5D8-ED36F05A039E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490724FC-B0CA-4E18-A5D8-ED36F05A039E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490724FC-B0CA-4E18-A5D8-ED36F05A039E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490724FC-B0CA-4E18-A5D8-ED36F05A039E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Stratis.Bitcoin.Dashboard.NodeStarter": {
+      "commandName": "Project",
+      "commandLineArgs": "-datadir=C:\\\\stratis-testnet\\\\node1\\\\",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:5002"
+    }
+  }
+}
