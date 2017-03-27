@@ -4,5 +4,7 @@ import { Component } from '@angular/core';
     selector: 'home',
     template: require('./home.component.html')
 })
+
+
 export class HomeComponent {
 }

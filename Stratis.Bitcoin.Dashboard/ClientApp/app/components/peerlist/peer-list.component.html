@@ -12,16 +12,14 @@
          </tr>
       </thead>
       <tbody>
-         @{int itemCount = 0;}
-         @foreach (var item in Model) {
-         <tr>
-            <th scope="row">@(++itemCount)</th>
-            <td>@item.EndPoint</td>
-            <td>@item.ConnectedAt</td>
-            <td>@item.PeerUserAgent</td>
-            <td>@item.PeerVersion</td>
-            <td>@(item.Read/1024)</td>
-            <td>@(item.Written/1024)</td>
+         <tr *ngFor="let item of peers">
+            <th scope="row">{{index}}</th>
+            <td>{{item.EndPoint}}</td>
+            <td>{{item.ConnectedAt}}</td>
+            <td>{{item.PeerUserAgent}}</td>
+            <td>{{item.PeerVersion}}</td>
+            <td>{{item.Read}}</td>
+            <td>{{item.Written}}</td>
          </tr>
          }
       </tbody>

@@ -15,6 +15,10 @@ namespace Stratis.Bitcoin.Dashboard.Controllers {
             this.node = node;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("[action]")]
         public NodeSettings Settings() {
             return this.node?.Settings;

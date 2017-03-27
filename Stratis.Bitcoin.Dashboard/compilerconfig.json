@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/custom.css",
+    "inputFile": "wwwroot/css/custom.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/topmenu/topmenu.component.css",
+    "inputFile": "ClientApp/app/components/topmenu/topmenu.component.scss"
+  },
+  {
+    "outputFile": "ClientApp/app/components/sidemenu/sidemenu.component.css",
+    "inputFile": "ClientApp/app/components/sidemenu/sidemenu.component.scss"
+  }
+]

@@ -1,4 +1,4 @@
-<div class='container-fluid'>
+<!--<div class='container-fluid'>
     <div class='row'>
         <div class='col-sm-3'>
             <nav-menu></nav-menu>
@@ -7,4 +7,17 @@
             <router-outlet></router-outlet>
         </div>
     </div>
+</div>-->
+
+<div class="container body">
+   <div class="main_container">
+      <side-menu></side-menu>
+      <top-menu></top-menu>
+
+      <div class="right_col" role="main">
+         <router-outlet></router-outlet>
+      </div>
+
+      <page-footer></page-footer>
+   </div>
 </div>
